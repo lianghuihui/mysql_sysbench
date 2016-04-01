@@ -2,7 +2,7 @@
 
 INTERVAL=5
 PREFIX=$INTERVAL-sec-status
-RUNFILE=/Users/lianghh/lianghh_workspace/pros/mysql_sysbench/running
+RUNFILE=./running
 
 mysql -h127.0.0.1 -uroot -e 'SHOW GLOBAL VARIABLES' >> mysql-variables
 
